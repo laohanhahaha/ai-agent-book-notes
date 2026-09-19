@@ -15,6 +15,13 @@
 | 第五章 | Coding Agent 与通用 Agent | [CHAPTER5_知识点总结.md](知识点总结/CHAPTER5_知识点总结.md) |
 | 第六章 | Agent 的评估 | [CHAPTER6_知识点总结.md](知识点总结/CHAPTER6_知识点总结.md) |
 
+## 源码学习指南
+
+- [Pi 源码阅读地图](./PI_源码阅读地图.md)：按六章笔记定位 Pi 文件、函数与阅读问题。
+- [跨项目源码学习指南](./跨项目源码学习指南.md)：以 Pi 为主线，用 LlamaIndex、MCP Python SDK 和 Promptfoo 补齐检索、协议与评估；另附长期记忆、状态恢复和 Pi 工程补充路线。
+
+指南中的本仓库链接使用相对路径。Pi 源码链接依赖本地目录布局；跨项目源码使用固定提交的 GitHub 链接。练习方案与已完成的源码核对分开标注。
+
 ## 笔记内容
 
 每章总结主要包括：
@@ -32,6 +39,8 @@
 ```text
 ai-agent-book-notes/
 ├── README.md
+├── PI_源码阅读地图.md
+├── 跨项目源码学习指南.md
 └── 知识点总结/
     ├── CHAPTER1_知识点总结.md
     ├── CHAPTER2_知识点总结.md
